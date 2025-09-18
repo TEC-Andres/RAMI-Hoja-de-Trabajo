@@ -16,3 +16,8 @@ Este proyecto es una herramienta para generar hojas de trabajo y exámenes en fo
 1. Configura los archivos de preguntas y curso en la carpeta correspondiente.
 2. Ejecuta `main.py` para generar el PDF.
 3. El archivo generado estará en la carpeta `output/`.
+
+
+### NOTA LEGAL
+Este documento creado a partir de una plantilla en Overleaf cuya licencia cae en Creative Commons CC BY 4.0. 
+Referencia: R. Wahyudi. (2025). _Template Dokumen Soal Ujian Itera_. Overleaf. Recuperado de https://www.overleaf.com/latex/templates/template-dokumen-soal-ujian-itera/csqpqtmjzyjm
