@@ -1,0 +1,48 @@
+% Setting to headers
+\setlength\headheight{45pt} 
+%\setlength{\headsep}{1cm}
+
+\firstpageheadrule
+\firstpagefootrule
+\runningheadrule
+\runningfootrule
+
+%\renewcommand{\headrulewidth}{.4pt}
+%\renewcommand{\footrulewidth}{.4pt}
+
+
+\lhead{%
+    \begin{minipage}[c]{0.2\linewidth}
+        \shortlogo %\fulllogo %
+        \vspace{0.3cm}
+    \end{minipage}
+}
+
+\rhead{%
+    \begin{minipage}[c]{0.8\linewidth}
+        \centering
+        \MakeUppercase{\kementerian}\\
+        \MakeUppercase{\itera}\\
+        \textbf{\MakeUppercase{\fakultas}}\\
+        %\textbf{\prodi}\\
+        \small{\alamatfs}\\
+        %\vspace{-.1cm}
+    \end{minipage}
+}
+
+\lfoot{%
+    % Mahasiswa: \underline{%
+    %     \makebox[2in]{%
+    %         \ifnum\multiplestudents>1{\color{gray}Não precisa}\fi
+    %     }
+    % }\hspace{1.5cm}Curso: \underline{\makebox[1.0in]{}}
+}
+\cfoot{}
+\rfoot{%
+    Page \thepage~of \numpages%
+}
+
+
+\newcommand{\draftstyle}{%
+    \thispagestyle{head}
+}

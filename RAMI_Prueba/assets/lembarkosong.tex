@@ -1,0 +1,31 @@
+\ifnum\lembarkosong=0
+\else{% 
+    \foreach \blank in {1,...,\lembarkosong} {%
+        % \ifodd\numpages
+        %     \blankpage
+        % \else\fi
+    
+        \newpage
+            \draftstyle
+            \BgThispage
+        
+            \begin{center}
+                \textbf{Lembar Coretan} % bisa diganti dengan kata lainfffffffffff
+            \end{center}
+        
+            \vfill
+    
+            \begin{flushright}
+                Nama Mahasiswa: \underline{\makebox[2.5in]{
+                    \if\empty\student\else\student\fi
+                }}
+            \end{flushright}
+            
+            \clearpage
+            \addtocounter{page}{-1}%
+    
+        % \blankpage
+    }
+    %\makedrafts{\draftpages}
+}%
+\fi
