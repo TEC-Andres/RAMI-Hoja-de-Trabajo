@@ -9,8 +9,8 @@ Este proyecto es una herramienta para generar hojas de trabajo y exámenes en fo
 - `_logs/`: Archivos de registro de la generación.
 
 ## Requisitos
-- Python 3
-- LaTeX instalado en el sistema
+- Python 3.8 o superior ([Instalación](https://www.python.org/downloads/))
+- LaTeX instalado en el sistema ([Instalación](https://www.tug.org/texworks/))
 
 ## Uso
 1. Configura los archivos de preguntas y curso en la carpeta correspondiente.
